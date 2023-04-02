@@ -61,30 +61,30 @@ const App = () => {
 						<div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
 							<Navbar />
 						</div>
-					</div>
 
-					<div>
-						<Routes>
-							{/* Dashboard */}
-							<Route path="/" element={<Ecommerce />} />
-							<Route path="/ecommerce" element={<Ecommerce />} />
+						<div>
+							<Routes>
+								{/* Dashboard */}
+								<Route path="/" element={<Ecommerce />} />
+								<Route path="/ecommerce" element={<Ecommerce />} />
 
-							{/* pages */}
-							<Route path="/orders" element={<Orders />} />
-							<Route path="/employees" element={<Employees />} />
-							<Route path="/customers" element={<Customers />} />
+								{/* pages */}
+								<Route path="/orders" element={<Orders />} />
+								<Route path="/employees" element={<Employees />} />
+								<Route path="/customers" element={<Customers />} />
 
-							{/* apps */}
-							<Route path="/line" element={<Line />} />
-							<Route path="/kanban" element={<Kanban />} />
-							<Route path="/area" element={<Area />} />
-							<Route path="/bar" element={<Bar />} />
-							<Route path="/pie" element={<Pie />} />
-							<Route path="/financial" element={<Financial />} />
-							<Route path="/color-mapping" element={<ColorMapping />} />
-							<Route path="/pyramid" element={<Pyramid />} />
-							<Route path="/stacked" element={<Stacked />} />
-						</Routes>
+								{/* apps */}
+								<Route path="/line" element={<Line />} />
+								<Route path="/kanban" element={<Kanban />} />
+								<Route path="/area" element={<Area />} />
+								<Route path="/bar" element={<Bar />} />
+								<Route path="/pie" element={<Pie />} />
+								<Route path="/financial" element={<Financial />} />
+								<Route path="/color-mapping" element={<ColorMapping />} />
+								<Route path="/pyramid" element={<Pyramid />} />
+								<Route path="/stacked" element={<Stacked />} />
+							</Routes>
+						</div>
 					</div>
 				</div>
 			</BrowserRouter>
@@ -93,4 +93,4 @@ const App = () => {
 };
 
 export default App;
-// menit 1:15:29
+// menit 2:17:00
